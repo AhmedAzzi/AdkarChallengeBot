@@ -543,7 +543,7 @@ async def text_router(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
 # Main bot entry
 def main():
-    TOKEN = "7631271424:AAGI-pAitzEwMSMkZNT9QRuhWWxH_2mx5NE"
+    TOKEN = "YOUR_BOY_TOKEN"
     app = Application.builder().token(TOKEN).build()
 
     # إضافة أوامر البوت (commands) لتسهيل الاستخدام بدون الحاجة لكتابة / يدوياً
